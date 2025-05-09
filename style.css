@@ -110,7 +110,7 @@ nav{
     height: 90px;
     line-height: 90px;
     background: var(--body-color);
-    padding-inline: 7vw;
+    padding-inline: 5vw;
     transition: .3s;
     z-index: 100;
     /* margin-top: 100px; */
@@ -127,8 +127,8 @@ nav{
     text-decoration: none;
     color: #FDD017;
     font-weight: 500;
-    padding-inline: 15px;
-    margin-inline: 20px;
+    padding-inline: 10px;
+    margin-inline: 10px;
 }
 .nav-menu-btn{
     display: none;
