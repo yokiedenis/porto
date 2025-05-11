@@ -45,7 +45,7 @@ function myMenuFunction(){
  const sr = ScrollReveal({
         origin: 'top',
         distance: '40px',
-        duration: 2000,
+        duration: 1000,
         reset: true     
  })
 
@@ -70,7 +70,7 @@ sr.reveal('.top-header',{})
 const srLeft = ScrollReveal({
   origin: 'left',
   distance: '40px',
-  duration: 2000,
+  duration: 1000,
   reset: true
 })
 
@@ -81,7 +81,7 @@ srLeft.reveal('.contact-info',{delay: 100})
 const srRight = ScrollReveal({
   origin: 'right',
   distance: '40px',
-  duration: 3000,
+  duration: 1000,
   reset: true
 })
 
