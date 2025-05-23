@@ -10,7 +10,7 @@
         }
         .card-muno{
 color: #FDD017;
-background-color: #FDD017;
+background-color: aqua;
 width: 20rem;
 min-height: 10rem;
 padding: 10px;
@@ -28,8 +28,9 @@ margin-top: 100px;
             background-color: black;
         }
 
+      
 
-.wavyHeading h1 {
+.wavyHeading h2 {
   font-size: 2em;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -37,11 +38,11 @@ margin-top: 100px;
   font-weight: 900;
   text-shadow: 0px 2px 5px #373b44;
 }
-.wavyHeading h1:nth-child(1) {
+.wavyHeading h2:nth-child(1) {
   color: aqua;
   -webkit-text-stroke: 2px black;
 }
-.wavyHeading h1:nth-child(2) {
+.wavyHeading h2:nth-child(2) {
   color: #FDD017;
   animation: animate1 5s ease-in-out infinite;
 }
@@ -55,37 +56,50 @@ margin-top: 100px;
     clip-path: polygon(0% 60%, 15% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%, 0% 60%);
   }
 }
+@media only screen and (min-width: 1024px){
+    section{
+            display: flex;
+            justify-content: space-around;
+        }
 
+}
 
     </style>
 </head>
 <body>
-    <div style="position: relative;top: 30px; left: 100px;" class="wavyHeading">
-        <h1>sholarships</h1>
-        <h1>sholarships</h1>
+    <section>
+    <div>
+        <div style="position: relative;top: 30px; left: 100px;" class="wavyHeading">
+            <h2>scholarships</h2>
+            <h2>scholarships</h2>
+        </div>
+       <hr>
+    
+        <div class="card-muno">
+    
+            <!-- breathe work heading -->
+            
+            <a href="https://www.iucea.org/call-for-applications-east-african-community-student-mobility-scholarships-scheme-eac-sms/">EAC-SMS</a>
+            <p>deadline 30th june</p><br>
+            <h3 style="position: relative; left: 100px; padding: 5px 10px;" >Sponsored Courses</h3>
+            
+            <a href="https://www.wqu.edu/">WorldQuant University</a>
+            <p>Bw’ogikoowela</p>
+                </div>
     </div>
-   <hr>
-
-    <div class="card-muno">
-
-        <!-- breathe work heading -->
-        
-        <a href="https://www.iucea.org/call-for-applications-east-african-community-student-mobility-scholarships-scheme-eac-sms/">EAC-SMS</a>
-        <p>deadline 30th june</p><br><hr>
-        <h3 style="position: relative; left: 100px;" >Sponsored Courses</h3>
-        
-        <a href="https://www.wqu.edu/">WorldQuant University</a>
-        <p>Bw’ogikoowela</p>
-            </div>
-            <div style="position: relative;top: 20px; left: 100px;" class="wavyHeading">
-                <h1>yokas.tech</h1>
-                <h1>jobs</h1>
-            </div>
-            <div class="card-muno">
-                    <p>Y combinator</p>
-                    <span>.....</span>
-                    <p>LinkedIn</p>
-                    <span>.....</span>
-                    </div>
+            <div>
+                <div style="position: relative;top: 20px; left: 100px;" class="wavyHeading">
+                    <h2>tech🌱⛴🪂</h2>
+                    <h2>jobs</h2>
+                </div>
+                <hr>
+                <div class="card-muno">
+                        <p>Y combinator</p>
+                        <span>.....</span>
+                        <p>LinkedIn</p>
+                        <span>.....</span>
+                        </div>
+                
+            </div>    </section>
 </body>
 </html>
